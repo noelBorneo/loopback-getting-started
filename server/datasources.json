@@ -3,13 +3,14 @@
     "name": "db",
     "connector": "memory"
   },
-  "mysqlDs": {
-    "name": "mysqlDs",
-    "connector": "mysql",
+  "mysqlIDs": {
     "host": "demo.strongloop.com",
     "port": 3306,
+    "url": "",
     "database": "getting_started",
-    "username": "demo",
-    "password": "L00pBack"
+    "password": "L00pBack",
+    "name": "mysqlIDs",
+    "user": "demo",
+    "connector": "mysql"
   }
 }
